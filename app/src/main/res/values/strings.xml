@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Capitals of Countries Quiz</string>
+
+    <string name="SinglePlayerButton">Single Player</string>
+    //id is @+id/Single_P_Btn
+
+    <string name="MultiplayerButton">Multiplayer</string>
+    // id is @+id/Multi_P_Btn
+
+    <string name="SinglePlayerNameInput">Nickname :</string>
+    // id is @+id/SingleNickname_TextView
+
+    <string name="SP_start_Btn">Start</string>
+    // id is @+id/SP_start_Btn
+
+    <string name="MultiplayerP1NameInput">Player 1 :</string>
+    // id is @+id/p1_TextView
+
+    <string name="MultiplayerP2NameInput">Player 2 :</string>
+    // id is @+id/p2_TextView
+
+    <string name="MP_start_Btn">Start</string>
+    // id is @+id/MP_start_Btn
+
+    <string name="list_Heading">List of all questions</string>
+    <string name="SP_list_press2Answer">Click on the question to answer it!</string>
+    // id is @+id/ListOfAllQuestions
+
+    <string name="Q1Reveal">No, Kuala Lumpur is the capital of Malaysia. </string>
+    <string name="Q2Reveal">No, Bern is the capital of Switzerland.</string>
+    <string name="Q3Reveal">Yes</string>
+    <string name="Q4Reveal">No, San Jose is the capital of Costa Rica.</string>
+    <string name="Q5Reveal">Yes</string>
+    <string name="Q6Reveal">Yes</string>
+    <string name="Q7Reveal">No, Canberra is the capital of Australia.</string>
+    <string name="Q8Reveal">No, New Delhi is the capital of India.</string>
+    <string name="Q9Reveal">No, Amsterdam is the capital of The Netherlands.</string>
+    <string name="Q10Reveal">Yes</string>
+
+    <string name="userName">Username</string>
+    <string name="userScore">Score</string>
+    <string name="backToMenu">Back To Menu</string>
+    <string name="leaderboard_text">Leaderboard</string>
+
+    <string name="Q1">Q1. Is Singapore the capital of Malaysia?</string>
+    <string name="Q2">Q2. Is Zurich the capital of Switzerland?</string>
+    <string name="Q3">Q3. Is Tunis the capital of Tunisia?</string>
+    <string name="Q4">Q4. Is Bogota the capital of Costa Rica?</string>
+    <string name="Q5">Q5. Is Luxembourg the capital of Luxembourg?</string>
+    <string name="Q6">Q6. Is Islamabad the capital of Pakistan?</string>
+    <string name="Q7">Q7. Is Sydney the capital of Australia?</string>
+    <string name="Q8">Q8. Is Mumbai the capital of India?</string>
+    <string name="Q9">Q9. Is The Hague the capital of The Netherlands?</string>
+    <string name="Q10">Q10. Is Cairo the capital of Egypt?</string>
+
+    <string name="cheat_text">Cheat!</string>
+    <string name="submit_text">Submit answer</string>
+    <string name="SPListFinish">FINISH</string>
+    <string name="areYouSureFinished">Are you sure you have finished? [Skipped questions receive 0 points!]</string>
+</resources>

@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/mattlim/AndroidStudioProjects/GroupXSimpleApp/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="/Users/mattlim/AndroidStudioProjects/GroupXSimpleApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.0.1_5d975740d443a6f4f21fc5ac34d25f88c172292d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mattlim/AndroidStudioProjects/GroupXSimpleApp/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="/Users/mattlim/AndroidStudioProjects/GroupXSimpleApp/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_f5a05164756efa8a85ff027b1938112523e185a1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mattlim/Desktop/ANDROID APP ALMOST DONE/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="/Users/mattlim/Desktop/ANDROID APP ALMOST DONE/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.0.1_8c31d0c2668e1433122f09a46cfeb4359e47c380.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mattlim/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="/Users/mattlim/AndroidStudioProjects/GroupXSimpleApp/app/build/intermediates/pre-dexed/debug/support-annotations-25.0.1_1eb060125f484da49523d87b7d77da4d92ee5d01.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mattlim/Desktop/ANDROID APP ALMOST DONE/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="/Users/mattlim/Desktop/ANDROID APP ALMOST DONE/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_5259368c0d4c6cae3c0b7af6c64ba8ca7bce8381.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mattlim/AndroidStudioProjects/GroupXSimpleApp/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="/Users/mattlim/AndroidStudioProjects/GroupXSimpleApp/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_06a32aaccd55a3d7fafdece0d819e594191bcc1e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mattlim/Desktop/ANDROID APP ALMOST DONE/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="/Users/mattlim/Desktop/ANDROID APP ALMOST DONE/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.0.1_251ab952230753b28abce0fe45adb5b1919c6dbe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mattlim/Desktop/ANDROID APP ALMOST DONE/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="/Users/mattlim/Desktop/ANDROID APP ALMOST DONE/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.0.1_4ccbf1dfda8dbfbaef678356a1ca2400e2724c26.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mattlim/Desktop/ANDROID APP ALMOST DONE/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="/Users/mattlim/Desktop/ANDROID APP ALMOST DONE/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.0.1_0e5eae2d3c044a6e309684d512893b70151ae09c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mattlim/AndroidStudioProjects/GroupXSimpleApp/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="/Users/mattlim/AndroidStudioProjects/GroupXSimpleApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.0.1_f953deb9405e2834d2cd8648b30cb3867d0117e4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mattlim/Desktop/ANDROID APP ALMOST DONE/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="/Users/mattlim/Desktop/ANDROID APP ALMOST DONE/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.0.1_94426b76ca9b076459b59bc911d9159ed4c815e9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mattlim/AndroidStudioProjects/GroupXSimpleApp/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="/Users/mattlim/AndroidStudioProjects/GroupXSimpleApp/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_149072a76154a88f421b56a60878a7695a7a8874.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mattlim/Desktop/ANDROID APP ALMOST DONE/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="/Users/mattlim/Desktop/ANDROID APP ALMOST DONE/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.0.1_748f02fc2cdb62555cdf3ccbbdd39591cafaf09c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mattlim/AndroidStudioProjects/GroupXSimpleApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/mattlim/AndroidStudioProjects/GroupXSimpleApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.0.1_3f72adef839debd8ee8af331c48bd99b47cd9ad8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mattlim/Desktop/ANDROID APP ALMOST DONE/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/mattlim/Desktop/ANDROID APP ALMOST DONE/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.0.1_5de411dae2e2922a9a98fdf5121ced1a5967bb94.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mattlim/AndroidStudioProjects/GroupXSimpleApp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="/Users/mattlim/AndroidStudioProjects/GroupXSimpleApp/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_4e0de573aa8ed728d6c3c7fe88d22a73a766fe68.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mattlim/Desktop/ANDROID APP ALMOST DONE/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="/Users/mattlim/Desktop/ANDROID APP ALMOST DONE/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.0.1_e987f11d5004a0f062dc37c715eecf8e7b8ce565.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mattlim/AndroidStudioProjects/GroupXSimpleApp/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="/Users/mattlim/AndroidStudioProjects/GroupXSimpleApp/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.0.1_23d089eb517e4e3570ea5c0bd89a592a40f98b89.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mattlim/AndroidStudioProjects/GroupXSimpleApp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="/Users/mattlim/AndroidStudioProjects/GroupXSimpleApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.0.1_121863ac87db4b48d50808f6629e98c7bcfbf8a7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mattlim/AndroidStudioProjects/GroupXSimpleApp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="/Users/mattlim/AndroidStudioProjects/GroupXSimpleApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.0.1_3ec6dc8a821e54752deba2453125e2f6de2da155.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mattlim/Desktop/ANDROID APP ALMOST DONE/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="/Users/mattlim/Desktop/ANDROID APP ALMOST DONE/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.0.1_753482e969b039659378a6310cd595a3b43e57cb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mattlim/Desktop/ANDROID APP ALMOST DONE/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="/Users/mattlim/Desktop/ANDROID APP ALMOST DONE/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_23e83ad0e031b92f3a01b4bdf2a554c4c292ba67.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mattlim/Desktop/ANDROID APP ALMOST DONE/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="/Users/mattlim/Desktop/ANDROID APP ALMOST DONE/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_cb5f5b756942c5dcdcfd7feb58b501c8967f6e4d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mattlim/Desktop/ANDROID APP ALMOST DONE/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/mattlim/Desktop/ANDROID APP ALMOST DONE/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_363fb57fa4c91a857673e223f30f1b696b716c21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mattlim/AndroidStudioProjects/GroupXSimpleApp/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/mattlim/AndroidStudioProjects/GroupXSimpleApp/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_0c6fb419d82534b1d74fa77e42dbdb307693542b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mattlim/AndroidStudioProjects/GroupXSimpleApp/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="/Users/mattlim/AndroidStudioProjects/GroupXSimpleApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.0.1_904892d248bb2c6b84d8bf4bf2f1350d30798438.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mattlim/AndroidStudioProjects/GroupXSimpleApp/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="/Users/mattlim/AndroidStudioProjects/GroupXSimpleApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.0.1_10ca264d88fbf524c3f698c114df5d1b13e16ab3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mattlim/AndroidStudioProjects/GroupXSimpleApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="/Users/mattlim/AndroidStudioProjects/GroupXSimpleApp/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.0.1_89dc6f437691b72aaa6cccb5563f83b7a6e78e36.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mattlim/Desktop/ANDROID APP ALMOST DONE/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="/Users/mattlim/Desktop/ANDROID APP ALMOST DONE/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_d4162e20ff7ce2f269d75603ef7e347249495c69.jar" />
+    </item>
+
+</items>

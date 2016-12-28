@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.cyrush.groupxsimplequizapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".HomeActivity"
+                  android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".SPQuestionList"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".SPQ1Page"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".SPQ2Page"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".SPQ3Page"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".SPQ4Page"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".SPQ5Page"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".SPQ6Page"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".SPQ7Page"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".SPQ8Page"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".SPQ9Page"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".SPQ10Page"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".SPFinalConfirmationPage"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".LeaderboardChoices"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".MPQ1Page"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".MPQ2Page"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".MPQ3Page"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".MPQ4Page"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".MPQ5Page"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".MPQ6Page"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".MPQ7Page"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".MPQ8Page"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".MPQ9Page"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".MPQ10Page"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".MP_P1_Transition"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".MPQuestionList"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".SinglePlayerStartPageFrag">
+        </activity>
+        <activity android:name=".SPShowScore"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".MultiplayerStartPageFrag">
+        </activity>
+        <activity android:name=".StartPageActivity"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".SP_Leaderboard"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".MPShowScore"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".RevealAllAnswersPage"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".MP_Leaderboard"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".MP_P2_Transition"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".MPQuestionList2"
+                  android:screenOrientation="portrait">
+        </activity>
+    </application>
+
+</manifest>

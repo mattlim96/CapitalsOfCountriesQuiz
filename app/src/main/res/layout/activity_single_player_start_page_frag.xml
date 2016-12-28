@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/SP_start_Btn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="25dp">
+
+        <TextView
+            android:text="@string/SinglePlayerNameInput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/SingleNickname_TextView"
+            android:layout_marginBottom="28dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:ems="10"
+            android:id="@+id/nickname_EdiText" />
+
+    </LinearLayout>
+
+    <Button
+        android:text="@string/SP_start_Btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/SP_start_Btn"
+        android:layout_marginBottom="191dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Quit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/SP_quit_Btn"
+        android:clickable="true"
+        android:layout_alignTop="@+id/SP_start_Btn"
+        android:layout_alignLeft="@+id/SP_start_Btn"
+        android:layout_alignStart="@+id/SP_start_Btn"
+        android:layout_marginTop="74dp"/>
+
+</RelativeLayout>
