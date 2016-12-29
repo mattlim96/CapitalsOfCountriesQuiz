@@ -1,13 +1,10 @@
 package com.example.cyrush.groupxsimplequizapp;
 
-import android.content.Context;
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.Toast;
 
 public class MP_P1_Transition extends AppCompatActivity {
 
@@ -19,9 +16,6 @@ public class MP_P1_Transition extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mp_p1_transition);
-
-        SharedPreferences sharedPref = this.getPreferences(Context.MODE_PRIVATE);
-        final SharedPreferences.Editor editor = sharedPref.edit();
 
         // Getting the reference to the widgets in the layout.
         p1_to_p2 = (Button) findViewById(R.id.p1_finished_btn);
@@ -50,6 +44,8 @@ public class MP_P1_Transition extends AppCompatActivity {
 
                 // Creates an Intent object from current page to Player 2 Question list page.
                 Intent goToList = new Intent(MP_P1_Transition.this,MPQuestionList2.class );
+
+                // Executes the Intent object.
                 startActivity(goToList);
 
                 // Initiate scores of Player 1 for each question.

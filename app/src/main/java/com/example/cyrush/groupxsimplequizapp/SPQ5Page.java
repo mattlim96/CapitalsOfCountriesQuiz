@@ -74,7 +74,11 @@ public class SPQ5Page extends AppCompatActivity {
 
             @Override
             public void onClick(View view){
+
+                // Creates an Intent object from current page to Question List page.
                 Intent goToList = new Intent(SPQ5Page.this,SPQuestionList.class );
+
+                // Execute Intent object.
                 startActivity(goToList);
             }
         });

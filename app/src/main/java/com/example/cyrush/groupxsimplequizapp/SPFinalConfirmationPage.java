@@ -30,7 +30,11 @@ public class SPFinalConfirmationPage extends AppCompatActivity {
             //method to go to Single Player Question List
             @Override
             public void onClick(View view){
+
+                // Creates an Intent object from current page to Single Player question list.
                 Intent goToList = new Intent(SPFinalConfirmationPage.this,SPQuestionList.class );
+
+                // Execute Intent object.
                 startActivity(goToList);
             }
         });

@@ -5,10 +5,7 @@ import android.os.Bundle;
 import android.widget.TextView;
 
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
 import java.util.HashMap;
-import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -17,7 +14,6 @@ import java.util.Set;
 public class MP_Leaderboard extends AppCompatActivity {
 
     private TextView mpUsernames, mpScores;
-
     private int row_num;
 
     @Override
@@ -35,7 +31,8 @@ public class MP_Leaderboard extends AppCompatActivity {
         // Retrieving all Multiplayer scores in descending order.
         List<Player> pList = dataBaseHelper.showMpAllScores();
 
-        // Grouping players based on the Game Number they are associated with in descending order.
+        // Grouping players based on the Game Number they are associated with
+        // and scores ranked in descending order.
         Map<Integer, List<Player>> groupedPlayers = new HashMap<Integer, List<Player>>();
         for (Player p: pList) {
             Integer key = p.getGameNumber();
@@ -45,26 +42,23 @@ public class MP_Leaderboard extends AppCompatActivity {
             groupedPlayers.get(key).add(p);
         }
 
-        // Initiating two StringBuilder variables.
+        // Initiating StringBuilder variables.
         StringBuilder sb = new StringBuilder();
         StringBuilder sb2 = new StringBuilder();
-
         StringBuilder space = new StringBuilder();
 
-        // For-Each Loop to create two Strings to display the nicknames and scores using the
+        // For-Each Loop to display the nicknames and scores using the
         // groupedPlayers created above.
-
         Set<Integer> groupedPlayersKeySet = groupedPlayers.keySet();
         for (Integer gNumber: groupedPlayersKeySet) {
             List<Player> pL = groupedPlayers.get(gNumber);
-            for (Player p : pL) {
-                //System.out.println("Name : "+p.getName()+"\t"+"Score : "+p.getScore()+"   "+p.getGameNumber());
 
+            for (Player p : pL) {
 
                 sb.append(p.getName() + "\n");
                 sb2.append(p.getScore() + "\n");
 
-
+                // Creating a row between all the Multiplayer quiz scores.
                 row_num++;
                 if (row_num == 2) {
 
@@ -82,13 +76,6 @@ public class MP_Leaderboard extends AppCompatActivity {
         mpUsernames.setTextSize(20);
         mpScores.setText(sb2.toString());
         mpScores.setTextSize(20);
-
-//        ArrayAdapter<Player> arrayAdapter = new ArrayAdapter<Player>(
-//                this,
-//                android.R.layout.simple_list_item_1,
-//                pList );
-
-        //playerList.setAdapter(arrayAdapter);
 
     }
 

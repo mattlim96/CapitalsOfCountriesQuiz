@@ -76,12 +76,6 @@ public class MP_P2_Transition extends AppCompatActivity {
                 DataBaseHelper dataBaseHelper = new DataBaseHelper(MP_P2_Transition.this);
                 dataBaseHelper.addPlayerToMpQuiz(p1, p2);
 
-                //Toast.makeText(MP_P2_Transition.this,"Test 1 "+ MPQ7Page.MPQ7Score
-                //        ,Toast.LENGTH_SHORT).show();
-
-                //Toast.makeText(MP_P2_Transition.this,"Test 2 "+ p2TotalScore
-                //        ,Toast.LENGTH_SHORT).show();
-
             }
         });
     }

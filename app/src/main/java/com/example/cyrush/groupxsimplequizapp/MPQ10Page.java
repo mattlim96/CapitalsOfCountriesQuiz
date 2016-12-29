@@ -75,13 +75,12 @@ public class MPQ10Page extends AppCompatActivity {
             @Override
             public void onClick(View view){
 
-                //Toast.makeText(MPQ10Page.this,"Test 0 "+ MP_P1_Transition.player1Finished
-                //        ,Toast.LENGTH_SHORT).show();
-
                 if (MP_P1_Transition.player1Finished) {
 
                     // Creates an Intent object from current page to Player 1 Question List page.
                     Intent goToList = new Intent(MPQ10Page.this, MPQuestionList2.class);
+
+                    // Execute Intent object.
                     startActivity(goToList);
 
                 }
@@ -90,6 +89,8 @@ public class MPQ10Page extends AppCompatActivity {
 
                     // Creates an Intent object from current page to Player 2 Question List page.
                     Intent goToList = new Intent(MPQ10Page.this, MPQuestionList.class);
+
+                    // Execute Intent object.
                     startActivity(goToList);
 
                 }

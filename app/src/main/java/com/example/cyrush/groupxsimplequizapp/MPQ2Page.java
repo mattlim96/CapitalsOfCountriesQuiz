@@ -79,20 +79,21 @@ public class MPQ2Page extends AppCompatActivity {
 
                     // Creates an Intent object from current page to Player 2 Question List page.
                     Intent goToList = new Intent(MPQ2Page.this, MPQuestionList2.class);
+
+                    // Execute Intent object.
                     startActivity(goToList);
 
-                    //Toast.makeText(MPQ2Page.this,"Test 1",Toast.LENGTH_SHORT).show();
                 }
 
                 else {
 
-                    //Toast.makeText(MPQ2Page.this,"Test 2",Toast.LENGTH_SHORT).show();
-
                     // Creates an Intent object from current page to Player 2 Question List page.
                     Intent goToList = new Intent(MPQ2Page.this, MPQuestionList.class);
-                    startActivity(goToList);
-                }
 
+                    // Execute Intent object.
+                    startActivity(goToList);
+
+                }
             }
         });
     }

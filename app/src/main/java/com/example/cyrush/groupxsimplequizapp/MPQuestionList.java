@@ -17,7 +17,6 @@ public class MPQuestionList extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mpquestion_list);
 
-
         // Getting the reference to the widgets in the layout.
         final TextView mpQ1TextView = (TextView) findViewById(R.id.MPListQ1);
         final TextView mpQ2TextView = (TextView) findViewById(R.id.MPListQ2);
@@ -30,7 +29,6 @@ public class MPQuestionList extends AppCompatActivity {
         final TextView mpQ9TextView = (TextView) findViewById(R.id.MPListQ9);
         final TextView mpQ10TextView = (TextView) findViewById(R.id.MPListQ10);
         p1Finished = (Button) findViewById(R.id.mp_ListFinish_btn);
-
 
         /**
          *  Following methods navigate from Player 1 Question List to corresponding Questions

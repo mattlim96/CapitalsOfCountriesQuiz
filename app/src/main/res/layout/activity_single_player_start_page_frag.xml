@@ -30,16 +30,6 @@
     </LinearLayout>
 
     <Button
-        android:text="@string/SP_start_Btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:id="@+id/SP_start_Btn"
-        android:layout_marginBottom="191dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
-
-    <Button
         android:text="Quit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -50,5 +40,14 @@
         android:layout_alignLeft="@+id/SP_start_Btn"
         android:layout_alignStart="@+id/SP_start_Btn"
         android:layout_marginTop="74dp"/>
+
+    <Button
+        android:text="@string/SP_start_Btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/SP_start_Btn"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
 
 </RelativeLayout>

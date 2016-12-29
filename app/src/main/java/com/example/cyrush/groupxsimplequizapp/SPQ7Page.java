@@ -78,6 +78,7 @@ public class SPQ7Page extends AppCompatActivity {
 
                 // Executes Intent object.
                 startActivity(goToList);
+
             }
         });
     }

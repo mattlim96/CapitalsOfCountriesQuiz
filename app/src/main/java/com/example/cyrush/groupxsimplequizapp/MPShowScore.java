@@ -1,14 +1,11 @@
 package com.example.cyrush.groupxsimplequizapp;
 
-import android.content.Context;
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-import android.widget.Toast;
 
 public class MPShowScore extends AppCompatActivity {
 
@@ -36,6 +33,8 @@ public class MPShowScore extends AppCompatActivity {
 
                 // Creates an Intent object from current page to answers page.
                 Intent toAnswersPage = new Intent(MPShowScore.this, RevealAllAnswersPage.class);
+
+                // Execute Intent object.
                 startActivity(toAnswersPage);
 
             }
@@ -44,17 +43,6 @@ public class MPShowScore extends AppCompatActivity {
         // Displaying the scores of Player 1 and 2.
         p1score.setText(String.valueOf(MP_P1_Transition.p1TotalScore));
         p2score.setText(String.valueOf(MP_P2_Transition.p2TotalScore));
-
-        DataBaseHelper dataBaseHelper = new DataBaseHelper(this);
-
-        System.out.println("Player 1 name ******   "+ MultiplayerStartPageFrag.p1.getName());
-
-        System.out.println("Player 2 name &&&&&&&&"+ MultiplayerStartPageFrag.p2.getName());
-
-
-
-        MultiplayerStartPageFrag.p1.setScore(MP_P1_Transition.p1TotalScore);
-        MultiplayerStartPageFrag.p2.setScore(MP_P2_Transition.p2TotalScore);
 
         /**
          *  Do this on Leaderboard button in final scores page.
@@ -65,10 +53,9 @@ public class MPShowScore extends AppCompatActivity {
 
                 // Creates an Intent object from current page to Multiplayer Leaderboard page.
                 Intent toMpLeaderBoard = new Intent(MPShowScore.this, MP_Leaderboard.class);
+
+                // Execute Intent object.
                 startActivity(toMpLeaderBoard);
-
-
-
 
             }
         });
@@ -94,6 +81,8 @@ public class MPShowScore extends AppCompatActivity {
 
                 // Creates an Intent object from current page to Home page.
                 Intent toMainMenu = new Intent(MPShowScore.this, HomeActivity.class);
+
+                // Execute Intent object.
                 startActivity(toMainMenu);
 
             }
@@ -105,8 +94,3 @@ public class MPShowScore extends AppCompatActivity {
         // Do nothing.
     }
 }
-
-/*SharedPreferences sharedPref = this.getPreferences(Context.MODE_PRIVATE);
-        int defaultValue = getResources().getInteger(MP_P1_Transition.p1TotalScore);
-        long player1Score = sharedPref.getInt(getString(MP_P1_Transition.p1TotalScore), defaultValue);
-        */

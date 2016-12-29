@@ -43,6 +43,6 @@ public class StartPageActivity extends FragmentActivity {
 
     @Override
     public void onBackPressed() {
-        getSupportFragmentManager().findFragmentById(R.id.startPageFrag).onDestroy();
+        // Do nothing.
     }
 }

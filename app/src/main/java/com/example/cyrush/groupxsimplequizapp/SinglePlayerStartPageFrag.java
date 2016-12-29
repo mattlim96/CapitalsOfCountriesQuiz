@@ -63,7 +63,7 @@ public class SinglePlayerStartPageFrag extends Fragment {
                     // to the nickname entered by the player.
                     singlePlayer.setName(nickname);
 
-                    // Calling a method.
+                    // Calling the method created below.
                     startSinglePlayermode();
 
                 }
@@ -80,6 +80,8 @@ public class SinglePlayerStartPageFrag extends Fragment {
 
                 // Creates an Intent object from current page to the Home Page
                 Intent toHomePage = new Intent(getActivity(), HomeActivity.class);
+
+                // Execute Intent object.
                 startActivity(toHomePage);
             }
         });

@@ -11,19 +11,10 @@
                 tools:context="com.example.cyrush.groupxsimplequizapp.SPFinalConfirmationPage">
 
     <Button
-        android:text="@string/SinglePlayerButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:id="@+id/spLeaderboard"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"/>
-
-    <Button
         android:text="@string/MultiplayerButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="39dp"
+        android:layout_marginTop="35dp"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:id="@+id/mpLeaderboard"
         android:layout_below="@+id/spLeaderboard"
@@ -35,11 +26,18 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:id="@+id/leaderboardDescription"
         android:text="Leaderboards"
-        android:paddingTop="5dp"
         android:textStyle="bold"
-        android:paddingBottom="5dp"
-        android:layout_marginBottom="92dp"
-        android:layout_above="@+id/mpLeaderboard"
+        android:layout_marginBottom="35dp"
+        android:layout_above="@+id/spLeaderboard"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:text="@string/SinglePlayerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/spLeaderboard"
+        android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"/>
 
 </RelativeLayout>

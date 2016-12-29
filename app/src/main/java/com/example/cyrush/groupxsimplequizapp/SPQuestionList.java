@@ -33,14 +33,13 @@ public class SPQuestionList extends AppCompatActivity {
         mFinishButton = (Button) findViewById(R.id.ListFinish_btn);
 
         /**
-         *  Following methods navigate from Question List to corresponding Questions
-         *  and gives a toast when a question has been answered.
+         *  Following methods navigate from Single Player Question List (Current Page) to corresponding
+         *  Questions and gives a toast when a question has been answered.
          */
 
         spQ1TextView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //navigates to SPQ1Page - ***MAKE THE REST FOR OTHER SP Question Pages
                 if(!SPQ1Page.SPQ1Answered){
                     Intent spq1 = new Intent(SPQuestionList.this, SPQ1Page.class);
                     startActivity(spq1);
@@ -172,6 +171,7 @@ public class SPQuestionList extends AppCompatActivity {
 
                 // Execute Intent object.
                 startActivity(goToSPFinalConfirmationPage);
+
             }
         });
 

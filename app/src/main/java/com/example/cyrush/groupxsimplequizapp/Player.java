@@ -25,7 +25,6 @@ public class Player {
 
     private int score;
 
-
     private int gameNumber;
 
     public int getGameNumber() {

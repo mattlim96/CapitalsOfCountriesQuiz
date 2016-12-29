@@ -76,10 +76,6 @@ public class MPQ1Page extends AppCompatActivity {
             @Override
             public void onClick(View view){
 
-                //Toast.makeText(MPQ1Page.this,"Test 0 "+ MP_P1_Transition.player1Finished
-                //        ,Toast.LENGTH_SHORT).show();
-
-
                 // If-Else Statement to distinct the different Intent action for Player 1 and 2.
                 if (MP_P1_Transition.player1Finished) {
 
@@ -89,10 +85,7 @@ public class MPQ1Page extends AppCompatActivity {
                     // Execute Intent object.
                     startActivity(goToList);
 
-                    //Toast.makeText(MPQ1Page.this,"Test 1",Toast.LENGTH_SHORT).show();
                 } else {
-
-                    //Toast.makeText(MPQ1Page.this,"Test 2",Toast.LENGTH_SHORT).show();
 
                     // Creates an Intent object from current page to Player 2 Question List page.
                     Intent goToList = new Intent(MPQ1Page.this, MPQuestionList.class);

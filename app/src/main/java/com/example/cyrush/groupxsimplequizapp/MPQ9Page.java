@@ -80,6 +80,8 @@ public class MPQ9Page extends AppCompatActivity {
 
                     // Creates an Intent object from current page to Player 1 Question List page.
                     Intent goToList = new Intent(MPQ9Page.this, MPQuestionList2.class);
+
+                    // Execute Intent object.
                     startActivity(goToList);
 
                 }
@@ -88,6 +90,8 @@ public class MPQ9Page extends AppCompatActivity {
 
                     // Creates an Intent object from current page to Player 2 Question List page.
                     Intent goToList = new Intent(MPQ9Page.this, MPQuestionList.class);
+
+                    // Execute Intent object.
                     startActivity(goToList);
 
                 }

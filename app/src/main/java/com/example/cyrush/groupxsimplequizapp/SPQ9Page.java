@@ -80,6 +80,7 @@ public class SPQ9Page extends AppCompatActivity {
 
                 // Executes Intent object.
                 startActivity(goToList);
+
             }
         });
     }

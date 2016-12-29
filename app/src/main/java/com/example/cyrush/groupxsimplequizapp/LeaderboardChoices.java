@@ -25,6 +25,7 @@ public class LeaderboardChoices extends AppCompatActivity {
         sp_Leaderboard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
                 // Creates an Intent object from current page to Single Player Leaderboard page.
                 Intent i = new Intent(LeaderboardChoices.this, SP_Leaderboard.class);
                 startActivity(i);
@@ -37,6 +38,7 @@ public class LeaderboardChoices extends AppCompatActivity {
         mp_Leaderboard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
                 // Creates an Intent object from current page to Multiplayer Leaderboard page.
                 Intent j = new Intent(LeaderboardChoices.this, MP_Leaderboard.class);
                 startActivity(j);

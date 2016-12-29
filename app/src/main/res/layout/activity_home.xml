@@ -10,34 +10,40 @@
                 android:paddingTop="@dimen/activity_vertical_margin"
                 tools:context="com.example.cyrush.groupxsimplequizapp.SPFinalConfirmationPage">
 
-    <Button
-        android:text="@string/MultiplayerButton"
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="45dp"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:id="@+id/Multi_P_Btn"
-        android:layout_below="@+id/Single_P_Btn"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
 
-    <Button
-        android:text="@string/leaderboard_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:id="@+id/leaderboardBtn"
-        android:layout_marginTop="46dp"
-        android:layout_below="@+id/Multi_P_Btn"
-        android:layout_centerHorizontal="true"/>
 
-    <Button
-        android:text="@string/SinglePlayerButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:id="@+id/Single_P_Btn"
-        android:layout_marginTop="121dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"/>
+        <Button
+            android:text="@string/SinglePlayerButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="35dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/Single_P_Btn"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:text="@string/MultiplayerButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/Multi_P_Btn"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:text="@string/leaderboard_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/leaderboardBtn"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
 
 </RelativeLayout>

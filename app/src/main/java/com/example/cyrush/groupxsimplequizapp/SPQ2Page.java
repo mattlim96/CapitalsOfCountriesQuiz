@@ -81,6 +81,7 @@ public class SPQ2Page extends AppCompatActivity {
 
                 // Execute Intent object.
                 startActivity(goToList);
+
             }
         });
     }

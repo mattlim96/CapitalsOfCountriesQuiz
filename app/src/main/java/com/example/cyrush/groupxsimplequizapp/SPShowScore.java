@@ -35,8 +35,13 @@ public class SPShowScore extends AppCompatActivity {
         answers.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
+                // Creates an Intent object from current page to Single Player Leaderboard page.
                 Intent toAnswersPage = new Intent(SPShowScore.this, RevealAllAnswersPage.class);
+
+                // Execute Intent object.
                 startActivity(toAnswersPage);
+
             }
         });
 
@@ -46,8 +51,13 @@ public class SPShowScore extends AppCompatActivity {
         leaderboardBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
+                // Creates an Intent object from current page to Single Player Leaderboard page.
                 Intent toSpLeaderboard = new Intent(SPShowScore.this, SP_Leaderboard.class);
+
+                // Execute Intent object.
                 startActivity(toSpLeaderboard);
+
             }
         });
 
@@ -70,8 +80,12 @@ public class SPShowScore extends AppCompatActivity {
                 SPQ9Page.setSPQ9Answered(false);
                 SPQ10Page.setSPQ10Answered(false);
 
+                // Creates an Intent object from current page to Home page.
                 Intent toMainMenu = new Intent(SPShowScore.this, HomeActivity.class);
+
+                // Execute Intent object.
                 startActivity(toMainMenu);
+
             }
         });
     }

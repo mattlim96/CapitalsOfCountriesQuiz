@@ -81,10 +81,9 @@ public class SPQ1Page extends AppCompatActivity {
 
                 // Execute Intent object.
                 startActivity(goToList);
+
             }
         });
-
-
     }
 
     public static void setSPQ1Answered(boolean SPQ1Answered) {

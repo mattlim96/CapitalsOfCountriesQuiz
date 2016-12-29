@@ -73,7 +73,7 @@ public class MultiplayerStartPageFrag extends Fragment {
 
                     System.out.println("Player 1 name "+ p1.getName());
 
-                    // Calling a method.
+                    // Calling the method created below.
                     startMultiplayermode();
 
                 }

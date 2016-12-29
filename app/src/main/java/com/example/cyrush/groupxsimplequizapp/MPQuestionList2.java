@@ -30,17 +30,10 @@ public class MPQuestionList2 extends AppCompatActivity {
         final TextView mpQ10TextView = (TextView) findViewById(R.id.MPListQ10);
         p2Finished = (Button) findViewById(R.id.mp_ListFinish_btn);
 
-
         /**
          *  Following methods navigate from Player 2 Question List to corresponding Questions
          *  and gives a toast when a question has been answered.
          */
-
-        //Toast.makeText(MPQuestionList2.this,"Test 1 "+ MPQ7Page.MPQ7Score
-        //        ,Toast.LENGTH_SHORT).show();
-
-        //Toast.makeText(MPQuestionList2.this,"Test 2 "+ MP_P2_Transition.p2TotalScore
-        //        ,Toast.LENGTH_SHORT).show();
 
         mpQ1TextView.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -181,6 +174,8 @@ public class MPQuestionList2 extends AppCompatActivity {
 
                 // Creates an Intent object from current page to Player 2 complete page.
                 Intent i = new Intent(MPQuestionList2.this, MP_P2_Transition.class);
+
+                // Execute Intent object.
                 startActivity(i);
 
             }
