@@ -84,6 +84,10 @@ public class SPQ8Page extends AppCompatActivity {
         });
     }
 
+    public static void setSPQ8Answered(boolean SPQ8Answered) {
+        SPQ8Page.SPQ8Answered = SPQ8Answered;
+    }
+
     @Override
     public void onBackPressed() {
         // Do nothing.

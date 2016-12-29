@@ -75,9 +75,6 @@ public class MPQ2Page extends AppCompatActivity {
             @Override
             public void onClick(View view){
 
-                //Toast.makeText(MPQ2Page.this,"Test 0 "+ MP_P1_Transition.player1Finished
-                //        ,Toast.LENGTH_SHORT).show();
-
                 if (MP_P1_Transition.player1Finished) {
 
                     // Creates an Intent object from current page to Player 2 Question List page.

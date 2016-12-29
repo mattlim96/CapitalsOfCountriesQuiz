@@ -47,6 +47,12 @@ public class MPShowScore extends AppCompatActivity {
 
         DataBaseHelper dataBaseHelper = new DataBaseHelper(this);
 
+        System.out.println("Player 1 name ******   "+ MultiplayerStartPageFrag.p1.getName());
+
+        System.out.println("Player 2 name &&&&&&&&"+ MultiplayerStartPageFrag.p2.getName());
+
+
+
         MultiplayerStartPageFrag.p1.setScore(MP_P1_Transition.p1TotalScore);
         MultiplayerStartPageFrag.p2.setScore(MP_P2_Transition.p2TotalScore);
 
@@ -60,6 +66,9 @@ public class MPShowScore extends AppCompatActivity {
                 // Creates an Intent object from current page to Multiplayer Leaderboard page.
                 Intent toMpLeaderBoard = new Intent(MPShowScore.this, MP_Leaderboard.class);
                 startActivity(toMpLeaderBoard);
+
+
+
 
             }
         });

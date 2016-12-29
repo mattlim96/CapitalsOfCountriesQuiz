@@ -7,7 +7,7 @@
     <string name="MultiplayerButton">Multiplayer</string>
     // id is @+id/Multi_P_Btn
 
-    <string name="SinglePlayerNameInput">Nickname :</string>
+    <string name="SinglePlayerNameInput">Username :</string>
     // id is @+id/SingleNickname_TextView
 
     <string name="SP_start_Btn">Start</string>

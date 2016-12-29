@@ -22,7 +22,7 @@
         android:layout_alignParentStart="true">
 
         <TextView
-            android:text="P2 Press the question to answer"
+            android:text="P2 Tap the question to answer"
             android:layout_width="wrap_content"
             android:textColor="#000000"
             android:layout_height="wrap_content"
@@ -35,7 +35,7 @@
             android:id="@+id/TextView2"/>
 
         <TextView
-            android:text="To SKIP question, leave blank when pressing 'FINISH'"
+            android:text="To SKIP question, leave the question unanswered."
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="#000000"

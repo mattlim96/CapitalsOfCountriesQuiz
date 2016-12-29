@@ -51,19 +51,22 @@ public class SinglePlayerStartPageFrag extends Fragment {
                     Toast.makeText(mActivity, "Please fill in name field.",
                             Toast.LENGTH_SHORT).show();
                 }
+                else {
+                    // Getting the nickname entered by the player.
+                    nickname = SPnickname.getText().toString();
 
-                // Getting the nickname entered by the player.
-                nickname = SPnickname.getText().toString();
 
-                // Creating a Player class variable.
-                singlePlayer = new Player();
+                    // Creating a Player class variable.
+                    singlePlayer = new Player();
 
-                // Setting the nickname of the Player class variable made
-                // to the nickname entered by the player.
-                singlePlayer.setName(nickname);
+                    // Setting the nickname of the Player class variable made
+                    // to the nickname entered by the player.
+                    singlePlayer.setName(nickname);
 
-                // Calling a method.
-                startSinglePlayermode();
+                    // Calling a method.
+                    startSinglePlayermode();
+
+                }
 
             }
         });

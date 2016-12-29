@@ -17,7 +17,8 @@
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:id="@+id/p1_TextView"
-            android:layout_marginBottom="28dp" />
+            android:layout_marginBottom="28dp"
+            android:textStyle="bold"/>
 
         <EditText
             android:layout_width="295dp"
@@ -43,7 +44,8 @@
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:id="@+id/p2_TextView"
-            android:layout_marginBottom="28dp" />
+            android:layout_marginBottom="28dp"
+            android:textStyle="bold"/>
 
         <EditText
             android:layout_width="match_parent"

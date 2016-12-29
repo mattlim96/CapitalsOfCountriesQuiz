@@ -2,6 +2,7 @@ package com.example.cyrush.groupxsimplequizapp;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.provider.Settings;
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -56,26 +57,26 @@ public class MultiplayerStartPageFrag extends Fragment {
 
                 } else {
 
-                    Intent i = new Intent(getActivity(), MultiplayerStartPageFrag.class);
-                    startActivity(i);
+                    // Getting both nicknames entered by the players.
+                    p1Nickname = player1.getText().toString();
+                    p2Nickname = player2.getText().toString();
+
+                    // Creating two Player class variables.
+                    p1 = new Player();
+                    p2 = new Player();
+
+                    // Setting each nickname of the two Player class variables made
+                    // to the nicknames entered by the players.
+                    p1.setName(p1Nickname);
+                    p2.setName(p2Nickname);
+
+
+                    System.out.println("Player 1 name "+ p1.getName());
+
+                    // Calling a method.
+                    startMultiplayermode();
 
                 }
-
-                // Getting both nicknames entered by the players.
-                p1Nickname = player1.getText().toString();
-                p2Nickname = player2.getText().toString();
-
-                // Creating two Player class variables.
-                p1 = new Player();
-                p2 = new Player();
-
-                // Setting each nickname of the two Player class variables made
-                // to the nicknames entered by the players.
-                p1.setName(p1Nickname);
-                p2.setName(p2Nickname);
-
-                // Calling a method.
-                startMultiplayermode();
 
             }
         });

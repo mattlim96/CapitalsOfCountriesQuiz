@@ -68,16 +68,6 @@ public class MP_P1_Transition extends AppCompatActivity {
                 p1TotalScore  = score1 + score2 + score3 + score4 + score5 +
                                 score6 + score7 + score8 + score9 + score10;
 
-                // Storing Player 1's total score.
-                editor.putInt("player1Score", p1TotalScore);
-                editor.commit();
-
-                //Toast.makeText(MP_P1_Transition.this,"Test 1 "+ p1TotalScore
-                //        ,Toast.LENGTH_SHORT).show();
-
-                //Toast.makeText(MP_P1_Transition.this,"Test 2 "+ MPQ1Page.MPQ1Score
-                //        ,Toast.LENGTH_SHORT).show();
-
                 // Setting all the scores for each question for Player 2 to start playing.
                 MPQ1Page.MPQ1Score = 0;
                 MPQ2Page.MPQ2Score = 0;

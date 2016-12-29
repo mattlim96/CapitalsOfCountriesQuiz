@@ -11,6 +11,7 @@ public class MP_P2_Transition extends AppCompatActivity {
 
     private Button p2_to_scores;
     public static int p2TotalScore;
+    public static boolean quizFinished;
 
 
 
@@ -50,6 +51,20 @@ public class MP_P2_Transition extends AppCompatActivity {
                 // Sum of the scores for Player 2.
                 p2TotalScore  = score1 + score2 + score3 + score4 + score5 +
                                 score6 + score7 + score8 + score9 + score10;
+
+                // Setting all the scores to zero for each question and boolean to false
+                // to reset Multiplayer mode quiz for a new game.
+                MPQ1Page.MPQ1Score = 0;
+                MPQ2Page.MPQ2Score = 0;
+                MPQ3Page.MPQ3Score = 0;
+                MPQ4Page.MPQ4Score = 0;
+                MPQ5Page.MPQ5Score = 0;
+                MPQ6Page.MPQ6Score = 0;
+                MPQ7Page.MPQ7Score = 0;
+                MPQ8Page.MPQ8Score = 0;
+                MPQ9Page.MPQ9Score = 0;
+                MPQ10Page.MPQ10Score = 0;
+                MP_P1_Transition.player1Finished = false;
 
                 // Retrieving and setting the total scores for Player 1 and 2.
                 Player p1 = MultiplayerStartPageFrag.p1;

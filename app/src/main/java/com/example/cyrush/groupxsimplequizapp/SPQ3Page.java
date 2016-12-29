@@ -15,6 +15,11 @@ public class SPQ3Page extends AppCompatActivity {
     private RadioGroup SPQ3MultiChoice;
     private Button SPQ3SubmitBtn;
     public static int SPQ3Score = 0;
+
+    public static void setSPQ3Answered(boolean SPQ3Answered) {
+        SPQ3Page.SPQ3Answered = SPQ3Answered;
+    }
+
     public static boolean SPQ3Answered;
 
     @Override

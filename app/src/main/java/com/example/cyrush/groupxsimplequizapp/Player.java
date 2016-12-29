@@ -25,6 +25,17 @@ public class Player {
 
     private int score;
 
+
+    private int gameNumber;
+
+    public int getGameNumber() {
+        return gameNumber;
+    }
+
+    public void setGameNumber(int gameNumber) {
+        this.gameNumber = gameNumber;
+    }
+
     @Override
     public String toString() {
         return "Player{" +

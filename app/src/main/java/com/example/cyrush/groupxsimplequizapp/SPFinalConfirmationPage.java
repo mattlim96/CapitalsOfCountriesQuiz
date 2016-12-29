@@ -58,6 +58,19 @@ public class SPFinalConfirmationPage extends AppCompatActivity {
                 SP_totalScore  = score1 + score2 + score3 + score4 + score5 +
                                  score6 + score7 + score8 + score9 + score10;
 
+                // Setting all the scores to zero for each question
+                // to reset Single Player mode quiz for a new game.
+                SPQ1Page.SPQ1Score = 0;
+                SPQ2Page.SPQ2Score = 0;
+                SPQ3Page.SPQ3Score = 0;
+                SPQ4Page.SPQ4Score = 0;
+                SPQ5Page.SPQ5Score = 0;
+                SPQ6Page.SPQ6Score = 0;
+                SPQ7Page.SPQ7Score = 0;
+                SPQ8Page.SPQ8Score = 0;
+                SPQ9Page.SPQ9Score = 0;
+                SPQ10Page.SPQ10Score = 0;
+
                 // Retrieving and setting the total score.
                 Player singlePlayer = SinglePlayerStartPageFrag.singlePlayer;
                 singlePlayer.setScore(SP_totalScore);
@@ -65,10 +78,6 @@ public class SPFinalConfirmationPage extends AppCompatActivity {
                 // Storing the total score.
                 DataBaseHelper dataBaseHelper = new DataBaseHelper(SPFinalConfirmationPage.this);
                 dataBaseHelper.addPlayerToSpQuiz(singlePlayer);
-
-                //Toast.makeText(SPFinalConfirmationPage.this, "Your total score is "+SP_totalScore, Toast.LENGTH_SHORT).show();
-
-                //Toast.makeText(SPFinalConfirmationPage.this, "Your result is "+result, Toast.LENGTH_SHORT).show();
 
                 // Creates an Intent object from current page to Single Player score page.
                 Intent i = new Intent(SPFinalConfirmationPage.this, SPShowScore.class);

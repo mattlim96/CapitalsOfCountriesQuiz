@@ -57,6 +57,19 @@ public class SPShowScore extends AppCompatActivity {
         mainMenu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
+                // Making the questions available for a new Single Player Quiz.
+                SPQ1Page.setSPQ1Answered(false);
+                SPQ2Page.setSPQ2Answered(false);
+                SPQ3Page.setSPQ3Answered(false);
+                SPQ4Page.setSPQ4Answered(false);
+                SPQ5Page.setSPQ5Answered(false);
+                SPQ6Page.setSPQ6Answered(false);
+                SPQ7Page.setSPQ7Answered(false);
+                SPQ8Page.setSPQ8Answered(false);
+                SPQ9Page.setSPQ9Answered(false);
+                SPQ10Page.setSPQ10Answered(false);
+
                 Intent toMainMenu = new Intent(SPShowScore.this, HomeActivity.class);
                 startActivity(toMainMenu);
             }

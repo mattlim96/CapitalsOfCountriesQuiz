@@ -76,8 +76,8 @@ public class MPQ1Page extends AppCompatActivity {
             @Override
             public void onClick(View view){
 
-                Toast.makeText(MPQ1Page.this,"Test 0 "+ MP_P1_Transition.player1Finished
-                        ,Toast.LENGTH_SHORT).show();
+                //Toast.makeText(MPQ1Page.this,"Test 0 "+ MP_P1_Transition.player1Finished
+                //        ,Toast.LENGTH_SHORT).show();
 
 
                 // If-Else Statement to distinct the different Intent action for Player 1 and 2.
@@ -114,30 +114,3 @@ public class MPQ1Page extends AppCompatActivity {
         // Do nothing.
     }
 }
-
-/**
- SharedPreferences sharedPref = this.getPreferences(Context.MODE_PRIVATE);
- SharedPreferences.Editor editor = sharedPref.edit();
- editor.putInt("player1Score", p1TotalScore);
- editor.commit();
-
- SharedPreferences sharedPref = this.getPreferences(Context.MODE_PRIVATE);
- SharedPreferences.Editor editor = sharedPref.edit();
- editor.putInt("player2Score", p2TotalScore);
- editor.commit();
-
- SharedPreferences sharedPref = getActivity().getPreferences(Context.MODE_PRIVATE);
- int defaultValue = getResources().getInteger("player1Score");
- long player1Score = sharedPref.getInt(getString("player1Score"), defaultValue);
-
- SharedPreferences sharedPref = getActivity().getPreferences(Context.MODE_PRIVATE);
- int defaultValue = getResources().getInteger("player2Score");
- long player2Score = sharedPref.getInt(getString("player2Score"), defaultValue);
-
-
- // If statement to reset the score for Player 2.
- if (MP_P1_Transition.player1Finished) {
- MPQ1Score = 0;
- MPQ1SubmitBtn.setClickable(true);
- }
- */

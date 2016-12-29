@@ -29,9 +29,9 @@ public class SPQ2Page extends AppCompatActivity {
         /**
          *  Do this on Submit button in Question 2.
          */
-        SPQ2SubmitBtn.setOnClickListener(new View.OnClickListener(){
+        SPQ2SubmitBtn.setOnClickListener(new View.OnClickListener() {
 
-            public void onClick (View v){
+            public void onClick(View v) {
 
                 // Initiating the radio buttons in Question 2 to an integer variable.
                 int SPQ2SelectedID = SPQ2MultiChoice.getCheckedRadioButtonId();
@@ -74,15 +74,19 @@ public class SPQ2Page extends AppCompatActivity {
 
             //method to go to Single Player Question List
             @Override
-            public void onClick(View view){
+            public void onClick(View view) {
 
                 // Creates an Intent object from current page to Question List page.
-                Intent goToList = new Intent(SPQ2Page.this,SPQuestionList.class );
+                Intent goToList = new Intent(SPQ2Page.this, SPQuestionList.class);
 
                 // Execute Intent object.
                 startActivity(goToList);
             }
         });
+    }
+
+    public static void setSPQ2Answered(boolean SPQ2Answered) {
+        SPQ2Page.SPQ2Answered = SPQ2Answered;
     }
 
     @Override

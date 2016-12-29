@@ -84,10 +84,7 @@ public class MPQ3Page extends AppCompatActivity {
                     // Execute Intent object.
                     startActivity(goToList);
 
-                    //Toast.makeText(MPQ3Page.this,"Test 1",Toast.LENGTH_SHORT).show();
                 } else {
-
-                    //Toast.makeText(MPQ3Page.this,"Test 2",Toast.LENGTH_SHORT).show();
 
                     // Creates an Intent object from current page to Player 2 Question List page.
                     Intent goToList = new Intent(MPQ3Page.this, MPQuestionList.class);

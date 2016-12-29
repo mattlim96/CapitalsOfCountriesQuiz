@@ -59,7 +59,7 @@ public class MPQuestionList2 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                if(!SPQ2Page.SPQ2Answered){
+                if(!MPQ2Page.MPQ2Answered){
                     Intent spq2 = new Intent(MPQuestionList2.this, MPQ2Page.class);
                     startActivity(spq2);
                 } else {
@@ -72,7 +72,7 @@ public class MPQuestionList2 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                if(!SPQ3Page.SPQ3Answered){
+                if(!MPQ3Page.MPQ3Answered){
                     Intent spq3 = new Intent(MPQuestionList2.this, MPQ3Page.class);
                     startActivity(spq3);
                 } else {
@@ -85,7 +85,7 @@ public class MPQuestionList2 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                if(!SPQ4Page.SPQ4Answered){
+                if(!MPQ4Page.MPQ4Answered){
                     Intent spq4 = new Intent(MPQuestionList2.this, MPQ4Page.class);
                     startActivity(spq4);
                 } else {
@@ -98,7 +98,7 @@ public class MPQuestionList2 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                if(!SPQ5Page.SPQ5Answered){
+                if(!MPQ5Page.MPQ5Answered){
                     Intent spq5 = new Intent(MPQuestionList2.this, MPQ5Page.class);
                     startActivity(spq5);
                 } else {
@@ -111,7 +111,7 @@ public class MPQuestionList2 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                if(!SPQ6Page.SPQ6Answered){
+                if(!MPQ6Page.MPQ6Answered){
                     Intent spq6 = new Intent(MPQuestionList2.this, MPQ6Page.class);
                     startActivity(spq6);
                 } else {
@@ -124,7 +124,7 @@ public class MPQuestionList2 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                if(!SPQ7Page.SPQ7Answered){
+                if(!MPQ7Page.MPQ7Answered){
                     Intent spq7 = new Intent(MPQuestionList2.this, MPQ7Page.class);
                     startActivity(spq7);
                 } else {
@@ -137,7 +137,7 @@ public class MPQuestionList2 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                if(!SPQ8Page.SPQ8Answered){
+                if(!MPQ8Page.MPQ8Answered){
                     Intent spq8 = new Intent(MPQuestionList2.this, MPQ8Page.class);
                     startActivity(spq8);
                 } else {
@@ -150,7 +150,7 @@ public class MPQuestionList2 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                if(!SPQ9Page.SPQ9Answered){
+                if(!MPQ9Page.MPQ9Answered){
                     Intent spq9 = new Intent(MPQuestionList2.this, MPQ9Page.class);
                     startActivity(spq9);
                 } else {
@@ -163,7 +163,7 @@ public class MPQuestionList2 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                if(!SPQ10Page.SPQ10Answered){
+                if(!MPQ10Page.MPQ10Answered){
                     Intent spq10 = new Intent(MPQuestionList2.this, MPQ10Page.class);
                     startActivity(spq10);
                 } else {
