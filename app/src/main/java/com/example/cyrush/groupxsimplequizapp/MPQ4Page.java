@@ -51,7 +51,7 @@ public class MPQ4Page extends AppCompatActivity {
 
                 } else if (MPQ4SelectedID == R.id.radiocheat) {
 
-                    Toast.makeText(getApplicationContext(), "The answer is Yes, you cheater!", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "The answer is No, you cheater!", Toast.LENGTH_SHORT).show();
                     MPQ4Score = 0;
                     MPQ4SubmitBtn.setClickable(false);
 
