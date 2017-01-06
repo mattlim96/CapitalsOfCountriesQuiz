@@ -64,7 +64,7 @@ public class DataBaseHelper extends SQLiteOpenHelper {
         // Creating a writable database because query is inserting the data.
         SQLiteDatabase db = getWritableDatabase();
 
-        // Executing insert command using inert method on SQLite database.
+        // Executing insert command using insert method on SQLite database.
         // Insert method returns the number of rows affected on the database.
         long playerID = db.insert(TABLE_NAME, null, cv);
         db.close();
@@ -96,7 +96,7 @@ public class DataBaseHelper extends SQLiteOpenHelper {
         // Creating a writable database because query is inserting the data.
         SQLiteDatabase db = getWritableDatabase();
 
-        // Executing insert command using inert method on SQLite database.
+        // Executing insert command using insert method on SQLite database.
         // Insert method returns the number of rows affected on the database.
         long playerID = db.insert(TABLE_NAME, null, cv);
 
@@ -114,7 +114,7 @@ public class DataBaseHelper extends SQLiteOpenHelper {
         // Creating a writable database because query is inserting the data.
         SQLiteDatabase db2 = getWritableDatabase();
 
-        // Executing inert command using inert method on SQLite database.
+        // Executing insert command using insert method on SQLite database.
         // Insert method returns the number of rows affected on the database.
         long playerID2 = db2.insert(TABLE_NAME, null, cv2);
         db2.close();

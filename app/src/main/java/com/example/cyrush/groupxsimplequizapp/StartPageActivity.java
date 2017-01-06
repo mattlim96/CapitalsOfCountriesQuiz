@@ -30,7 +30,7 @@ public class StartPageActivity extends FragmentActivity {
 
                 fragmentTransaction.commit();
                 break;
-            case  "Multiplayer":
+            case "Multiplayer":
                 Fragment frag2 = new MultiplayerStartPageFrag();
                 FragmentManager fragmentManager2 = getSupportFragmentManager();
                 android.support.v4.app.FragmentTransaction fragmentTransaction2 = fragmentManager2.beginTransaction();
